@@ -1,0 +1,12 @@
+---- unsigned int Æ¥Åä (11 in 2 ÎÄ¼þ) ----
+Shfss.c (application):unsigned int ShfssConnectLastPacketTime;
+Shfss.c (application):unsigned int DisconnectCnt;
+Shfss.c (application):unsigned int ForceHopCnt;
+Shfss.c (application):    TxIdSaved = (unsigned int)TxId[0];
+Shfss.c (application):    TxIdSaved |= ((unsigned int)TxId[1] << 8);
+Shfss.c (application):    NowTxId = (unsigned int)TxId[0];
+Shfss.c (application):    NowTxId |= ((unsigned int)TxId[1] << 8);
+Shfss.c (application):unsigned int PacketCnt;
+Shfss.c (application):unsigned int PacketErrorCnt;
+Shfss.c (application):unsigned int LostPacketCnt;
+Stm8s.h (stm8s_stdperiph_driver\inc):/*!< Unsigned integer types  */
