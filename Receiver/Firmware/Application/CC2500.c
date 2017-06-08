@@ -8,7 +8,7 @@
 #define PROTOSPI_xfer(byte) spi_xfer(byte)
 
 
-
+  
 void AmpControl()
 {
     GPIO_Init(GPIOA, GPIO_PIN_2, GPIO_MODE_OUT_PP_LOW_SLOW);//TX
